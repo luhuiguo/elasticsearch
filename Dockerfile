@@ -1,3 +1,3 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.6.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.6.1
 
-COPY x-pack-core-6.6.0.jar /usr/share/elasticsearch/modules/x-pack-core/x-pack-core-6.6.0.jar
+COPY x-pack-core-6.6.1.jar /usr/share/elasticsearch/modules/x-pack-core/x-pack-core-6.6.1.jar
